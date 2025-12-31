@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<style>
+body {
+  background-image:"C:\Users\zeal\Downloads\bg img 123.jpg";
+  background-repeat: no-repeat; 
+  background-size: 100%;
+
+}
+
+</style>
+</head>
+<body background="C:\Users\zeal\Downloads\bg img 123.jpg">
+<body>
+
+
+</body>
+</html>
