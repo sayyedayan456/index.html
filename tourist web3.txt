@@ -1,0 +1,42 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Gallery</title>
+<style>
+.image container img{
+                                object-fit:cover;
+                                transition:transform 0.3 s ease;
+}
+.img-container img:hover{
+                                      transform:transform:scale(1.1)
+}
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header, nav, footer { background: #0088cc; color: white; padding: 15px; }
+nav a { color: white; margin-right: 15px; text-decoration: none; }
+.container { padding: 20px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+img { width: 100%; border-radius: 8px; }
+</style>
+</head>
+<body>
+<header><h1>Photo Gallery</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="destinations.html">Destinations</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+
+<div class="container">
+<img src="https://via.placeholder.com/300" alt="Photo 1" />
+<img src="https://via.placeholder.com/300" alt="Photo 2" />
+<img src="https://via.placeholder.com/300" alt="Photo 3" />
+</div>
+
+
+<footer><p>&copy; 2025 ExploreWorld.</p></footer>
+</body>
+</html>
